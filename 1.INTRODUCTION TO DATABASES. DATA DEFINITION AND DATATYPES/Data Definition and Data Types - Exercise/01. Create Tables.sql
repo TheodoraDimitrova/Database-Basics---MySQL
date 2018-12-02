@@ -1,0 +1,10 @@
+CREATE TABLE towns(
+id INT(11) PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(20)
+);
+
+CREATE TABLE minions (
+    id INT(11) PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(20),
+    age INT(20)
+);
